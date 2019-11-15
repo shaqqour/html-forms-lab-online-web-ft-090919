@@ -11,38 +11,55 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
+    <form>
 
       <!-- Add a label for 'fullname'-->
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
+      <label for="fullname">Full Name:</label>
+      <input id="fullname" name="fullname" type="text" placeholder="Enter Name" required>
+      <br>
 
 
       <!-- Add a label for 'email'-->
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" placeholder="Enter Email" required>
+      <br>
 
 
       <!-- Add a label for 'phone'-->
 
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
+      <label for="phone">Phone Number:</label>
+      <input id="phone" name="phone" type="tel" placeholder="Enter Telephone (optional)">
+      <br>
 
 
       <!-- Add a label for 'message'-->
 
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+      <br>
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
+      <h3>Vetran:</h3>
+      <input id="checkbox1" type="checkbox" name="mil-1" value="army">Army <br>
+      <input id="checkbox2" type="checkbox" name="mil-2" value="navey">Navey <br>
+      <input id="checkbox3" type="checkbox" name="mil-3" value="marines">Marines <br>
+      <input id="checkbox4" type="checkbox" name="mil-4" value="air">Air Forces <br>
 
 
       <!-- Add an input with the type set to 'submit' -->
+      <input type="submit">
 
-    
+    </form>
   </body>
 </html>
